@@ -1,6 +1,6 @@
 return {
     WindowTitle = "VDX PRIVATE HUB",
-    Version = "1.0.0",
+    Version = "1.1.0",
     DefaultFOV = 70,
     MinFOV = 40,
     MaxFOV = 120,
