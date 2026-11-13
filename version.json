@@ -1,5 +1,6 @@
 {
   "name": "VDX PRIVATE HUB",
-  "version": "1.0.0",
-  "channel": "starter"
+  "version": "1.1.0",
+  "channel": "development",
+  "modules": ["main", "visuals", "utility"]
 }
