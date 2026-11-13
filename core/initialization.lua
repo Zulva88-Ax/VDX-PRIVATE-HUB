@@ -12,9 +12,12 @@ end
 local config = loadModule("core/config.lua")
 local startMain = loadModule("modules/main.lua")
 local startVisuals = loadModule("modules/visuals.lua")
+local startUtility = loadModule("modules/utility.lua")
 
 assert(type(startMain) == "function", "main module must return a function")
 assert(type(startVisuals) == "function", "visuals module must return a function")
+assert(type(startUtility) == "function", "utility module must return a function")
 
 startMain(config)
 startVisuals(config)
+startUtility(config)
